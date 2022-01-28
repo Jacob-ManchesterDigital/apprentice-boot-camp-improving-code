@@ -20,7 +20,7 @@ Notes: Don’t worry… all on the cards
 
 ---
 
-## Exercise: Fix these smells (60 mins)
+## Exercise: Fix these smells (90 mins)
 
 * One smell at a time and run test after each change
 * Commit if green with useful message (don’t push!)
@@ -38,17 +38,15 @@ Notes: If working in small chunks reverting not a big deal
     C# people have [`dotnet watch test`](https://docs.microsoft.com/en-us/aspnet/core/tutorials/dotnet-watch?view=aspnetcore-3.1)  
     Run *all* of the tests  
     We will discuss what you did—you should be able to tell from your `git log`  
-    There are not many bad names  
 
 --
 
 ## Exercise Discussion
 
 + How many commits?
-+ How easy was it?
-+ Any surprises?
-+ What uncommunicative names did you find?
-+ What duplication did you find?
-+ What magic numbers did you find?
++ How did you improve the code?
++ Did the tests fail?
 
-Notes: Might want to live code the changes people made as they call them out
+Notes: Might want to look at the code people refer to  
+    Have conversation about whether it is correct to change the tests, given we have no requirements  
+    Smells covered: uncommunicative names, duplication, magic numbers
